@@ -32,8 +32,7 @@ const WhyChoose = () => {
             </div>
             <div dat-aos="slide-up" data-aos-delay="200" className='md:w-[40%] w-full flex flex-col justify-center items-center items-start gap-6 h-fit'>
                 <h1 className='text-6xl text-white font-bold text-center'>Why Prefer Us 🤔</h1>
-                <p className='text-2xl font-semibold text-white text-center'>We thrive to style you differently to give you our utmost specially clean and fresh cuts like you are oven baked.</p>
-                <p className='text-2xl font-semibold text-white md:text-start text-center'>In addition, there 5 more reasons why men choose Heritage Celebrity Barber:</p>
+                <p className='text-2xl font-semibold text-white md:text-start text-center'>There are reasons why men choose Heritage Celebrity Barber:</p>
                 <div id='icon-list' className='flex flex-col justify-center items-start gap-4'>
                     <div id='icon-box' className='flex justify-center items-center gap-3'>
                         <FaAngleDoubleRight className='text-white size-6' />
@@ -55,6 +54,7 @@ const WhyChoose = () => {
                         <FaAngleDoubleRight className='text-white size-6' />
                         <h1 className='text-xl text-white font-semibold'>All surfaces and tools are cleaned, disinfected before and after using</h1>
                     </div>
+                    <button className='text-black px-10 py-4 bg-white hover:bg-yellow hover:text-black rounded-xl font-semibold'>BOOK NOW</button>
                 </div>
             </div>
         </section>
