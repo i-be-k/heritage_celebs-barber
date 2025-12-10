@@ -27,7 +27,7 @@ const Hero = () => {
             <section id='hero' className='bg-purple-400 w-full md:px-[120px] px-10 flex flex-col justify-center md:flex-row items-center gap-20'>
                 <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
                     <h1 data-aos="zoom-in" className='text-2xl text-black font-semibold'>WELCOME TO</h1>
-                    <h1 data-aos="zoom-in" className='text-6xl text-black font-bold'>Heritage <br /> Celebs-barber <br /> in Monatan <br /> Ibadan</h1>
+                    <h1 data-aos="zoom-in" className='text-6xl text-black font-bold'> <span className='text-yellow'> Heritage</span> <br /> <span className='text-yellow'>Celebs-barber</span> <br /> in Monatan <br /> Ibadan</h1>
                     <div data-aos="slide-up" id='icon-list' className='flex flex-col justify-center items-start gap-6'>
                         <div id="icon-box" className='flex justify-center items-center gap-3'>
                             <FaLocationDot className='text-green-300 size-6' />
