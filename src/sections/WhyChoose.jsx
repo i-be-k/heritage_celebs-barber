@@ -17,7 +17,7 @@ const WhyChoose = () => {
 
     return (
         <section id='about' className='w-full md:px-20 px-10 md:py-20 py-10 flex flex-col md:flex-row justify-center items-center gap-20 bg-cover bg-center' style={{ backgroundImage: `url(${whyimg})` }}>
-            <div data-aos="zoom-in" className='flex flex-col justify-center items-center gap-10 bg-purple-400 p-10 rounded-xl md:w-[40%] w-full'>
+            <div data-aos="zoom-in" className='flex flex-col justify-center items-center gap-10 bg-white p-10 rounded-xl md:w-[40%] w-full'>
                 <h1 className='text-yellow text-4xl font-bold'>WORKING HOURS</h1>
                 <div className='flex flex-col justify-center items-center gap-4'>
                     <p className='text-xl text-black font-lg'>SUNDAY 10AM - 8PM</p>

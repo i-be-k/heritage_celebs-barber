@@ -24,7 +24,7 @@ const Hero = () => {
 
     return (
         <>
-            <section id='hero' className='bg-purple-400 w-full md:px-[120px] px-10 flex flex-col justify-center md:flex-row items-center gap-20'>
+            <section id='hero' className='bg-white w-full md:px-[120px] px-10 flex flex-col justify-center md:flex-row items-center gap-20'>
                 <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
                     <h1 data-aos="zoom-in" className='text-2xl text-black font-semibold'>WELCOME TO</h1>
                     <h1 data-aos="zoom-in" className='text-6xl text-black font-bold'> <span className='text-yellow'> Heritage</span> <br /> <span className='text-yellow'>Celebs-barber</span> <br /> in Monatan <br /> Ibadan</h1>
