@@ -28,6 +28,34 @@ const WhyChoose = () => {
                     <p className='text-xl text-black font-lg'>FRIDAY 10AM - 8PM</p>
                     <p className='text-xl text-black font-lg'>SATURDAY 10AM - 8PM</p>
                 </div>
+                <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-black font-semibold text-lg hover:bg-black hover:text-white mt-6'>BOOK ONLINE</button>
+            </div>
+            <div dat-aos="slide-up" data-aos-delay="200" className='md:w-[40%] w-full flex flex-col justify-center items-center items-start gap-6 h-fit'>
+                <h1 className='text-6xl text-white font-bold text-center'>Why Prefer Us 🤔</h1>
+                <p className='text-2xl font-semibold text-white text-center'>We thrive to style you differently to give you our utmost specially clean and fresh cuts like you are oven baked.</p>
+                <p className='text-2xl font-semibold text-white md:text-start text-center'>In addition, there 5 more reasons why men choose Heritage Celebrity Barber:</p>
+                <div id='icon-list' className='flex flex-col justify-center items-start gap-4'>
+                    <div id='icon-box' className='flex justify-center items-center gap-3'>
+                        <FaAngleDoubleRight className='text-white size-6' />
+                        <h1 className='text-xl text-white font-semibold'>Always welcoming environment</h1>
+                    </div>
+                    <div id='icon-box' className='flex justify-center items-center gap-3'>
+                        <FaAngleDoubleRight className='text-white size-6' />
+                        <h1 className='text-xl text-white font-semibold'>Our masters focus on the quality</h1>
+                    </div>
+                    <div id='icon-box' className='flex justify-center items-center gap-3'>
+                        <FaAngleDoubleRight className='text-white size-6' />
+                        <h1 className='text-xl text-white font-semibold'>We value both the time and the money of our clients</h1>
+                    </div>
+                    <div id='icon-box' className='flex justify-center items-center gap-3'>
+                        <FaAngleDoubleRight className='text-white size-6' />
+                        <h1 className='text-xl text-white font-semibold'>We work only with high-quality, hypoallergenic premium products</h1>
+                    </div>
+                    <div id='icon-box' className='flex justify-center items-center gap-3'>
+                        <FaAngleDoubleRight className='text-white size-6' />
+                        <h1 className='text-xl text-white font-semibold'>All surfaces and tools are cleaned, disinfected before and after using</h1>
+                    </div>
+                </div>
             </div>
         </section>
     );
