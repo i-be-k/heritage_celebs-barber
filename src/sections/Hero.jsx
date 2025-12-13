@@ -17,7 +17,7 @@ const Hero = () => {
         AOS.init({
             offset: 200,
             duration: 800,
-            easing: 'ease-in-out',
+            easing: 'ease-in-sine',
             delay: 100,
         });
     }, []);
@@ -53,7 +53,7 @@ const Hero = () => {
                 </div>
             </section>
 
-            <section className='grid grid-cols-1 md:grid-cols-4 justify-center items-center items-start w-full md:px-[120px] px-10 py-10 gap-10'>
+            <section className='grid grid-cols-1 md:grid-cols-4 bg-white justify-center items-center items-start w-full md:px-[120px] px-10 py-10 gap-10'>
                 <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-center gap-4'>
                     <img src={scissor} alt="" className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
                     <h1 className='text-2xl text-black font-semibold'>Regular Haircut</h1>
