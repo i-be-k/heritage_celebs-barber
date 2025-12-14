@@ -25,7 +25,7 @@ const Gallery = () => {
                 <h1 className='text-6xl text-white font-bold text-center'>Experience the Best Haircut & <br /> Shaving Services</h1>
             </section>
             <div className='w-full flex flex-col justfiy-center items-center'>
-                <div className='lg:w-[80%] w-full grid md:grid-cols-3 grid-cols-1 justify-center justify-items-center items-center gap-10 md:-mb[540px]'>
+                <div className='lg:w-[80%] w-full grid md:grid-cols-3 grid-cols-1 justify-center justify-items-center items-center gap-10 md:-mb-[540px]'>
                     <img data-aos="zoom-in" data-aos-delay="200" className='rounded-xl w-[400px] h-[350px]' src={gal1} alt="" />
                     <img data-aos="zoom-in" data-aos-delay="200" className='rounded-xl w-[400px] h-[350px]' src={gal2} alt="" />
                     <img data-aos="zoom-in" data-aos-delay="200" className='rounded-xl w-[400px] h-[350px]' src={gal3} alt="" />
