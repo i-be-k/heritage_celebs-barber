@@ -25,18 +25,18 @@ const clients = [
 ]
 
 const Testimonial = () => {
-    
+
     useEffect(() => {
-            AOS.init({
-                offset: 200,
-                duration: 800,
-                easing: 'ease-in-sine',
-                delay: 100,
-            });
-        }, []);
-    
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    }, []);
+
     return (
-        <section id='testimonial' className='w-full md:px-20 md:h-[165vh] h-fit px-10 py-20 flex flex-col justify-end items-center gap-6 bg-yellow'>
+        <section id='testimonial' className='w-full md:px-20 md:h-[205vh] h-fit px-10 py-20 flex flex-col justify-end items-center gap-6 bg-yellow'>
             <h1 data-aos="zoom-in" className='text-6xl text-white font-bold text-center'>Testimonials</h1>
             <p data-aos="zoom-in" className='text-xl text-white font-semibold text-center'>Our services are what brings back our client to US to further serving them with love and care for their hair style outlook.</p>
             <div id='clients' className='grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-6'>
@@ -48,7 +48,7 @@ const Testimonial = () => {
                                     <BiSolidQuoteAltLeft className='size-20 text-[#1caf7e] absolute left-0 opacity-20' />
                                     <h1 className='text-2xl text-black font-bold'>{item.title}</h1>
                                 </div>
-                                <img src={item.image} alt="" className='w-[100px] hb-[100px] transform hover:scale-110 transition duration-300 cursor-pointer'/>
+                                <img src={item.image} alt="" className='w-[100px] hb-[100px] transform hover:scale-110 transition duration-300 cursor-pointer' />
                             </div>
                             <div id='bottom' className='w-full'>
                                 <p className='text-end text-lg text-gray-600 font-medium'>{item.para}</p>

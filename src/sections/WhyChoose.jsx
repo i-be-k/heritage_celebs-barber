@@ -5,15 +5,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const WhyChoose = () => {
-    
+
     useEffect(() => {
-            AOS.init({
-                offset: 200,
-                duration: 800,
-                easing: 'ease-in-sine',
-                delay: 100,
-            });
-        }, []);
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    }, []);
 
     return (
         <section id='about' className='w-full md:px-20 px-10 md:py-20 py-10 flex flex-col md:flex-row justify-center items-center gap-20 bg-cover bg-center' style={{ backgroundImage: `url(${whyimg})` }}>

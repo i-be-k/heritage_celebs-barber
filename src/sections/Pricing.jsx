@@ -3,15 +3,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Pricing = () => {
-    
+
     useEffect(() => {
-            AOS.init({
-                offset: 200,
-                duration: 800,
-                easing: 'ease-in-sine',
-                delay: 100,
-            });
-        }, []);
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    }, []);
 
     return (
         <section id="pricing" className="w-full md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center">

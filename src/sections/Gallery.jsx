@@ -9,16 +9,16 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 const Gallery = () => {
-    
+
     useEffect(() => {
-                AOS.init({
-                    offset: 200,
-                    duration: 800,
-                    easing: 'ease-in-sine',
-                    delay: 100,
-                });
-            }, []);
-    
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    }, []);
+
     return (
         <>
             <section className='w-full flex flex-col md:px-20 px-10 h-fit pb-[300px] py-20 justify-center items-center gap-16 bg-gray-900 -mb-[200px]'>
